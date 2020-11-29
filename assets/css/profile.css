@@ -1,0 +1,12 @@
+body {
+  background-color: hsla(0, 0%, 0%, 0.95);
+  color: antiquewhite;
+}
+
+hr {
+  border-style: dotted none none none;
+  width: 7.5%;
+  border-color: antiquewhite;
+  border-width: 5px;
+  height: 5px;
+}
