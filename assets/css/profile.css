@@ -14,3 +14,12 @@ hr {
 h1 {
   color: azure;
 }
+
+a:hover {
+  background-color: azure;
+  border-radius: 6em 6em 6em 6em;
+}
+
+a:visited {
+  color: blue;
+}
