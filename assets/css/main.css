@@ -1,0 +1,25 @@
+body {
+  background-color: firebrick;
+}
+
+.main {
+  margin-top: 300px;
+  text-align: center;
+  font-family: monospace;
+  color: cadetblue;
+}
+
+.main h1 {
+  font-size: 40px;
+}
+
+.main p {
+  font-size: 15px;
+}
+
+.main hr {
+  border-style: dotted none none none;
+  border-width: 5px;
+  height: 10px;
+  width: 10%;
+}
