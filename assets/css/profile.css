@@ -1,6 +1,6 @@
 body {
   background-color: hsla(0, 0%, 0%, 0.95);
-  color: antiquewhite;
+  color: azure;
 }
 
 hr {
@@ -9,4 +9,8 @@ hr {
   border-color: antiquewhite;
   border-width: 5px;
   height: 5px;
+}
+
+h1 {
+  color: azure;
 }
