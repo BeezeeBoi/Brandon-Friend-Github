@@ -31,7 +31,6 @@ hr {
 .main {
   background-image: url("../images/Man-from-smoke.png");
   color: #F2AA52;
-  height: 200px;
   margin: 0 auto 0 auto;
   padding: 10% 0;
 }
@@ -52,7 +51,6 @@ hr {
   background-color: #D95323;
   font-size: 1.5rem;
   font-style: normal;
-  height: 200px;
   margin: 0 auto;
   padding: 10% 0;
 }
