@@ -101,24 +101,3 @@ hr {
   margin-top: 20px;
   width: 6rem;
 }
-
-/* Color Theme Swatches in Hex */
-.Fantastical-Flora-and-Fauna-1-hex { color: #BEBDBF; }
-.Fantastical-Flora-and-Fauna-2-hex { color: #F2AA52; }
-.Fantastical-Flora-and-Fauna-3-hex { color: #73461F; }
-.Fantastical-Flora-and-Fauna-4-hex { color: #BF5315; }
-.Fantastical-Flora-and-Fauna-5-hex { color: #D95323; }
-
-/* Color Theme Swatches in RGBA */
-.Fantastical-Flora-and-Fauna-1-rgba { color: rgba(189, 189, 191, 1); }
-.Fantastical-Flora-and-Fauna-2-rgba { color: rgba(242, 170, 82, 1); }
-.Fantastical-Flora-and-Fauna-3-rgba { color: rgba(114, 70, 30, 1); }
-.Fantastical-Flora-and-Fauna-4-rgba { color: rgba(191, 83, 21, 1); }
-.Fantastical-Flora-and-Fauna-5-rgba { color: rgba(216, 83, 34, 1); }
-
-/* Color Theme Swatches in HSLA */
-.Fantastical-Flora-and-Fauna-1-hsla { color: hsla(247, 1, 74, 1); }
-.Fantastical-Flora-and-Fauna-2-hsla { color: hsla(33, 86, 63, 1); }
-.Fantastical-Flora-and-Fauna-3-hsla { color: hsla(28, 57, 28, 1); }
-.Fantastical-Flora-and-Fauna-4-hsla { color: hsla(22, 80, 41, 1); }
-.Fantastical-Flora-and-Fauna-5-hsla { color: hsla(16, 72, 49, 1); }
