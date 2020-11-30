@@ -1,25 +1,127 @@
 body {
-  background-color: firebrick;
-}
-
-.main {
-  margin-top: 300px;
+  background-color: #BEBDBF;
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  margin: 0 0 0 0;
+  padding: 0;
   text-align: center;
-  font-family: monospace;
-  color: cadetblue;
 }
 
-.main h1 {
-  font-size: 40px;
+/* width */
+::-webkit-scrollbar {
+  width: 15px;;
 }
 
-.main p {
-  font-size: 15px;
+/* track */
+::-webkit-scrollbar-track {
+  background: black;
 }
 
-.main hr {
+/* handle */
+::-webkit-scrollbar-thumb {
+  background: #F2AA52;
+}
+
+hr {
   border-style: dotted none none none;
   border-width: 5px;
   height: 10px;
   width: 10%;
 }
+
+.main {
+  background-image: url("../images/Man-from-smoke.png");
+  color: #F2AA52;
+  height: 200px;
+  margin: 0 auto 0 auto;
+  padding: 10% 10%;
+}
+
+.main h1 {
+  font-family: acier-bat-noir, sans-serif;
+  font-size: 4.25rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.main p {
+  font-size: 1.5rem;
+  font-style: normal;
+}
+
+.sub1 {
+  background-color: #D95323;
+  font-size: 1.5rem;
+  font-style: normal;
+  height: 200px;
+  margin: 0 auto;
+  padding: 10% 10%;
+}
+
+.sub1 p {
+  font-size: 1.5rem;
+}
+
+.skills {
+  background-color: #73461F;
+  color: #F2AA52;
+  font-style: normal;
+  margin: 0 auto;
+  padding: 10% 10%;
+}
+
+.skills-table{
+  margin: 0 auto 0 auto;
+}
+
+.skills-table ul {
+  margin: 0 auto 0 43%;
+  text-align: left;
+}
+
+.skills-table hr {
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.project {
+  font-style: normal;
+  margin: 0 auto;
+  padding: 10% 10%;
+}
+
+.project-table {
+  margin: 0 auto 0 auto;
+}
+
+.project-table ul {
+  margin: 0 auto 0 37%;
+  text-align: left;
+}
+
+.project-table hr {
+  margin-left: 5%;
+  margin-top: 20px;
+  width: 6rem;
+}
+
+/* Color Theme Swatches in Hex */
+.Fantastical-Flora-and-Fauna-1-hex { color: #BEBDBF; }
+.Fantastical-Flora-and-Fauna-2-hex { color: #F2AA52; }
+.Fantastical-Flora-and-Fauna-3-hex { color: #73461F; }
+.Fantastical-Flora-and-Fauna-4-hex { color: #BF5315; }
+.Fantastical-Flora-and-Fauna-5-hex { color: #D95323; }
+
+/* Color Theme Swatches in RGBA */
+.Fantastical-Flora-and-Fauna-1-rgba { color: rgba(189, 189, 191, 1); }
+.Fantastical-Flora-and-Fauna-2-rgba { color: rgba(242, 170, 82, 1); }
+.Fantastical-Flora-and-Fauna-3-rgba { color: rgba(114, 70, 30, 1); }
+.Fantastical-Flora-and-Fauna-4-rgba { color: rgba(191, 83, 21, 1); }
+.Fantastical-Flora-and-Fauna-5-rgba { color: rgba(216, 83, 34, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Fantastical-Flora-and-Fauna-1-hsla { color: hsla(247, 1, 74, 1); }
+.Fantastical-Flora-and-Fauna-2-hsla { color: hsla(33, 86, 63, 1); }
+.Fantastical-Flora-and-Fauna-3-hsla { color: hsla(28, 57, 28, 1); }
+.Fantastical-Flora-and-Fauna-4-hsla { color: hsla(22, 80, 41, 1); }
+.Fantastical-Flora-and-Fauna-5-hsla { color: hsla(16, 72, 49, 1); }
