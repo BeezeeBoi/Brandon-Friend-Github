@@ -3,7 +3,6 @@ body {
   font-family: adobe-caslon-pro, serif;
   font-weight: 400;
   margin: 0 0 0 0;
-  padding: 0;
   text-align: center;
 }
 
@@ -34,7 +33,7 @@ hr {
   color: #F2AA52;
   height: 200px;
   margin: 0 auto 0 auto;
-  padding: 10% 10%;
+  padding: 10% 0;
 }
 
 .main h1 {
@@ -55,7 +54,7 @@ hr {
   font-style: normal;
   height: 200px;
   margin: 0 auto;
-  padding: 10% 10%;
+  padding: 10% 0;
 }
 
 .sub1 p {
@@ -66,8 +65,8 @@ hr {
   background-color: #73461F;
   color: #F2AA52;
   font-style: normal;
-  margin: 0 auto;
-  padding: 10% 10%;
+  margin: 0 auto 0 auto;
+  padding: 10% 0;
 }
 
 .skills-table{
@@ -75,19 +74,18 @@ hr {
 }
 
 .skills-table ul {
-  margin: 0 auto 0 43%;
-  text-align: left;
+  margin: 0 25px 0 auto;
+  list-style-type: none;
 }
 
 .skills-table hr {
-  margin-left: 0;
   margin-top: 20px;
 }
 
 .project {
   font-style: normal;
   margin: 0 auto;
-  padding: 10% 10%;
+  padding: 10% 0;
 }
 
 .project-table {
@@ -95,12 +93,11 @@ hr {
 }
 
 .project-table ul {
-  margin: 0 auto 0 37%;
-  text-align: left;
+  list-style-type: none;
+  margin: 0 25px 0 auto;
 }
 
 .project-table hr {
-  margin-left: 5%;
   margin-top: 20px;
   width: 6rem;
 }
