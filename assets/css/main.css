@@ -22,8 +22,8 @@ body {
 }
 
 hr {
-  border-style: dotted none none none;
-  border-width: 5px;
+  border: #F2AA52 dotted 5px;
+  border-style: dotted none none;
   height: 10px;
   width: 10%;
 }
