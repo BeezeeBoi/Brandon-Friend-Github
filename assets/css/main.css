@@ -133,3 +133,7 @@ hr {
   margin-top: 20px;
   width: 6rem;
 }
+
+.contact a:hover {
+  text-decoration: none;
+}
