@@ -34,6 +34,40 @@ hr {
   width: 10%;
 }
 
+a {
+  color: #F7C589
+}
+
+a:hover {
+  color: #F7C589;
+  text-decoration: none;
+  border-style: hidden;
+  border-radius: 4em;
+  border-width: 2px;
+  box-shadow: inset 0 0 8px 8px #F7C589;
+  box-shadow: 0 0 5px 5px #F7C589;
+  box-sizing: content-box;
+  padding: 10px 10px 0px 20px;
+  animation: shadowBox 0.4s;
+  animation-direction: reverse;
+  -webkit-animation: shadowBox 0.4s ease-out;
+  -webkit-animation-direction: reverse;
+}
+
+@keyframes shadowBox {
+  from { box-shadow: inset 0 0 0 0 #F2AA52;}
+  to {box-shadow: inset 0 0 7px 7px #F7C589;}
+}
+
+@-webkit-keyframes shadowBox {
+  from { box-shadow: inset 0 0 0 0 #F2AA52;}
+  to {box-shadow: inset 0 0 2px 2px #F7C589;}
+}
+
+a:visited {
+  color: #F7C589;
+}
+
 .main {
   background-image: url("../images/Man-from-smoke.png");
   color: #F2AA52;
@@ -80,36 +114,6 @@ hr {
 
 .sub1 a[href^="https"]::before {
   content: "🔗 ";
-}
-
-.sub1 a:link {
-  color: #F2AA52;
-}
-
-.sub1 a:hover {
-  color: #f7c589;
-  text-decoration: none;
-  border-style: hidden;
-  border-radius: 4em;
-  border-width: 2px;
-  box-shadow: inset 0 0 8px 8px #F7C589;
-  box-shadow: 0 0 5px 5px #F7C589;
-  box-sizing: content-box;
-  padding: 10px 10px 0px 15px;
-  animation: shadowBox 0.4s;
-  animation-direction: reverse;
-  -webkit-animation: shadowBox 0.4s ease-out;
-  -webkit-animation-direction: reverse;
-}
-
-@keyframes shadowBox {
-  from { box-shadow: inset 0 0 0 0 #F2AA52;}
-  to {box-shadow: inset 0 0 7px 7px #F7C589;}
-}
-
-@-webkit-keyframes shadowBox {
-  from { box-shadow: inset 0 0 0 0 #F2AA52;}
-  to {box-shadow: inset 0 0 2px 2px #F7C589;}
 }
 
 .skills {
@@ -161,8 +165,4 @@ hr {
   background-color: rgb(46, 45, 45);
   color: antiquewhite;
   padding: 50px 0px 0px;
-}
-
-.contact a:hover {
-  text-decoration: none;
 }
