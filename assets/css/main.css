@@ -86,7 +86,7 @@ a:visited {
 .main p {
   font-size: 1.5rem;
   font-style: normal;
-  margin: 50px auto 0px auto;
+  margin: 50px auto 0 auto;
 }
 
 .sub1 {
@@ -98,12 +98,12 @@ a:visited {
 }
 
 .sub1 h1 {
-  margin: 0px 0px 70px 0px;
+  margin: 0 0 70px 0;
 }
 
 .sub1 p {
   font-size: 1.5rem;
-  margin: 70px 0px 0px 0px;
+  margin: 70px 0 0 0;
 }
 
 .sub1 a {
@@ -120,7 +120,7 @@ a:visited {
   background-color: #73461F;
   color: #F2AA52;
   font-style: normal;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 10% 0;
 }
 
@@ -164,5 +164,5 @@ a:visited {
 .contact {
   background-color: rgb(46, 45, 45);
   color: antiquewhite;
-  padding: 50px 0px 0px;
+  padding: 50px 0 0;
 }
