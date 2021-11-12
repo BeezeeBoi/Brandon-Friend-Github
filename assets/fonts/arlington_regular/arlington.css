@@ -1,0 +1,12 @@
+/* Webfont: Arlington */@font-face {
+    font-family: 'ArlingtonRegular';
+    src: url('arlington.eot'); /* IE9 Compat Modes */
+    src: url('arlington.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('arlington.woff') format('woff'), /* Modern Browsers */
+         url('arlington.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('arlington.svg#Arlington') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
