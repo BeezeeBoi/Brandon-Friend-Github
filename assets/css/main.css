@@ -119,7 +119,9 @@ a:visited
 
 .sub1
 {
-  background-color: #D95323;
+  /*background-color: #D95323;*/
+  background-image: url("../images/Orange_Polygon.png");
+  color: antiquewhite;
   font-size: 1.5rem;
   font-style: normal;
   margin: 0 auto;
@@ -152,8 +154,8 @@ a:visited
 
 .skills
 {
-  background-color: #73461F;
-  color: #F2AA52;
+  background-image: url("../images/Yellow_Polygon.png");
+  color: antiquewhite;
   font-style: normal;
   margin: 0 auto;
   padding: 10% 0;
@@ -182,8 +184,10 @@ a:visited
 
 .project
 {
+  background-image: url("../images/Light_Gray.png");
   font-style: normal;
-  margin: 50px auto;
+  color: antiquewhite;
+  /*margin: 50px auto;*/
   padding: 10% 0;
 }
 
