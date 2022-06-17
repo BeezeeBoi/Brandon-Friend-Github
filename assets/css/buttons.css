@@ -1,0 +1,41 @@
+a
+{
+  color: #F7C589
+}
+
+a:hover
+{
+  color: #F7C589;
+  text-decoration: none;
+  border-style: hidden;
+  border-radius: 4em;
+  border-width: 2px;
+  box-shadow: 0 0 5px 5px #F7C589;
+  box-sizing: content-box;
+  padding: 10px 10px 0 20px;
+  animation: shadowBox 0.4s;
+  animation-direction: reverse;
+  -webkit-animation: shadowBox 0.4s ease-out;
+  -webkit-animation-direction: reverse;
+}
+
+a:visited
+{
+  color: #F7C589;
+}
+
+@keyframes shadowBox
+{
+  from
+  { box-shadow: inset 0 0 0 0 #F2AA52;}
+  to
+  {box-shadow: inset 0 0 7px 7px #F7C589;}
+}
+
+@-webkit-keyframes shadowBox
+{
+  from
+  { box-shadow: inset 0 0 0 0 #F2AA52;}
+  to
+  {box-shadow: inset 0 0 2px 2px #F7C589;}
+}
